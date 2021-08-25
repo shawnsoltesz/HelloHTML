@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 18px / 1 sans-serif;
 }
 html {
   height: 100%;
@@ -11,28 +11,48 @@ body {
 
 h1 {
   font-family: 'Rampart One', cursive;
-  color: rgb(31, 17, 34);
-  background-color: rgb(96, 214, 243);
-  border: 1px solid black;
+  color: rgb(229, 230, 243);
+  background-color: rgb(1, 53, 102);
+  border: 1px solid rgb(223, 231, 196);
   padding: 10px 15px 15px 5px;
-}
-h2, h3 {
-  font-family: 'Urbanist', sans-serif;
-  color: rgb(17, 15, 17);
-  background-color: rgb(181, 237, 246);
-  border: 1px solid black;
-  padding: 5px 10px 10px 1px;
-}
-h4 {
-  font-family: 'Urbanist', sans-serif;
-  color: rgb(220, 226, 169);
-  background-color: rgb(1, 26, 32);
-  border: 1px solid black;
-  padding-bottom: rem;
+
+  text-align: center;
 }
 
-p, ul {
+h2 {
+  font-family: 'Urbanist', sans-serif;
+  color: rgb(1, 53, 102);
+  background-color: rgb(223, 231, 196);
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  margin-right: 500px;
+}
+
+h3 {
+  font-family: 'Urbanist', sans-serif;
+  color: rgb(1, 53, 102);
+  background-color: rgb(223, 231, 196);
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  margin-right: 300px;
+}
+
+p {
   color: rgb(17, 26, 3);
   font-family: 'Urbanist', sans-serif;
-  /*font-family: 'Josefin Sans', sans-serif;
+  padding: 0px 10px 0px 10px;
+}
+
+ul {
+  color: rgb(17, 26, 3);
+  font-family: 'Urbanist', sans-serif;
+}
+
+img {
+  border-radius: 20px;
+}
+
+a:hover,
+link:hover {
+  color: rgb(155, 135, 47);
 }
