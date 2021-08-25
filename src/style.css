@@ -1,5 +1,6 @@
 :root {
   font: 18px / 1 sans-serif;
+  background-color: rgb(247, 255, 255);
 }
 html {
   height: 100%;
@@ -15,7 +16,7 @@ h1 {
   background-color: rgb(1, 53, 102);
   border: 1px solid rgb(223, 231, 196);
   padding: 10px 15px 15px 5px;
-
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -26,6 +27,7 @@ h2 {
   border: 1px solid black;
   padding: 5px 5px 5px 5px;
   margin-right: 500px;
+  border-radius: 10px;
 }
 
 h3 {
@@ -34,7 +36,8 @@ h3 {
   background-color: rgb(223, 231, 196);
   border: 1px solid black;
   padding: 5px 5px 5px 5px;
-  margin-right: 300px;
+  margin-right: 400px;
+  border-radius: 10px;
 }
 
 p {
@@ -49,10 +52,11 @@ ul {
 }
 
 img {
-  border-radius: 20px;
+  padding: 10px 10px 15px 20px;
+  border-radius: 15px;
 }
 
 a:hover,
 link:hover {
-  color: rgb(155, 135, 47);
+  color: rgb(155, 121, 47);
 }
